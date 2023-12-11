@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="index.js" defer></script> <!--defer indica que js se carga luego del html-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    
+    <form method="dialog"> <!--method hace que no se recargue la página-->
+        <input type="text" id="operador1" placeholder="número 1">
+        <input type="text" id="operadorMat" placeholder="operación">
+        <input type="text" id="operador2" placeholder="número 2">
+        <input type="submit" value="calcular" id="calcular">
+
+        <p id="resultado"></p>
+
+    </form> <!---Transformamos en form para que al teclear enter haba el cálculo-->
+
+</body>
+</html>
